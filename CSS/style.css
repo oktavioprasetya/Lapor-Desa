@@ -20,12 +20,16 @@ body {
 #Logo {
     display: flex;
     align-items: center;
+    font-family: "Anton", sans-serif;
+    font-size: 25px;
 }
 
 #kelompok-navigasi {
     display: flex;
     align-items: center;
     gap: 30px;
+    font-family: "Anton", sans-serif;
+    text-decoration: none;
 }
 
 #Login-Daftar {
@@ -33,3 +37,37 @@ body {
     align-items: center;
     gap: 10px;
 }
+.btnLoginDaftar{
+    background-color: #ff4f00;
+    border: none;
+    padding: 5px;
+    color: #ffffff;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+}
+.menu-utama{
+    text-decoration: none;
+    font-family: "Anton", sans-serif;
+    color: #ff4f00;
+    font-size: 20px;
+     border: #ff4f00;
+    border: solid;
+    border: 2px;
+    border-radius: 30px;
+
+}
+.menu-utama:hover{
+    background-color: #1c1c1c;
+    color: #ffffff;
+    width: 160px;
+    border-radius: 5px;
+    text-align: center;
+   
+    
+}
+#navbar{
+    background-color: #ffffff;
+    border-radius: 2rem;
+}
+
